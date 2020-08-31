@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% load static %}
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'txt/button.css' %}" >
+    <script src="{% static 'txt/bttButton.js' %}"></script>
+
+    <title>Bible Word Search</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-fixed-top navbar-light " style="background-color: #e3f2fd;">
+        <a href="{% url 'home' %}" class="navbar-brand"><img src="{% static 'txt/bible.png' %}" width="30" height="30" class="d-inline-block align-top" alt="Bible Word Search" loading="lazy">
+      Bible Word Search</a>
+      <strong>About This Site</strong>
+      </nav>
+      <div class="container" align="justify">
+        <br>
+        <h3>Welcome to the</h3>
+        <h1><strong><i>Bible Word Search</i></strong></h1>
+        <h3>Website</h3>
+        <br>
+        <img src="{% static 'txt/Will_BW_cropped_web.jpg' %}" width="200" height="auto" alt="Will Nicholson" loading="lazy" ALIGN="right" style="margin: 0px 0px 20px 20px;" / >
+        <p>My name is <strong>Will Nicholson</strong>, and I’m a husband and recent father of 3 beautiful children.  By “recent”, I mean to say that my wife and I are in the process of a multi-child adoption which was the result of the tragic and untimely death of the childrens’ single father.  This event, which finds me in my 40s, has brought upon me a whole new perspective of life, responsibility, and a great respect for the minuscule amount of time we have on this Earth before going home to judgement.  It’s made me realize that if I were to pass on today, I would likely not be very proud of what I’ve left behind for the world.</p>
+        <p>I created this site as a means of learning a little more about the bible, while also developing new skills in web design and programming.  I'm not a web developer by trade, and in fact have only dabbled in such efforts over the last few decades.   <img src="{% static 'txt/family.jpg' %}" width="200" height="auto" alt="Will Nicholson" loading="lazy" ALIGN="left" style="margin: 20px 20px 20px 0px;" / >However, it’s becoming increasingly obvious that my skills as a professional Visual Effects Artist in the movie/TV industry are quickly becoming obsolete in the face of expanding competition across the globe, a massive influx of new talent from colleges and trade schools, and incredible new emerging technologies. The web design industry is facing a similar fate, however, it’s the programming side of the business that intrigues me, and this website was created as a means of advancing my training in those pursuits.  </p>
+        <p>Nevertheless, I hope you find something interesting, inspiring, or perhaps helpful on this site, as I believe it can truly help bring about a greater understanding of the bible through direct searches for meaningful and familiar words or phrases.  </p>
+        <p>I’ll try to periodically update the functionality here, and make improvements along the way.  </p>
+        <p>In the meantime, thanks for visiting and please enjoy your stay here.</p>
+        <img src="{% static 'txt/Signature.png' %}" width="250" height="auto" class="d-inline-block align-top" alt="Will Nicholson" loading="lazy">
+        <p>-Will Nicholson</p>
+        <br>
+        <br>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Copyright ©2020 Will Nicholson</span>
+      </div>
+    </footer>
+
+  </body>
+</html>

@@ -47,6 +47,10 @@ body {
   background-size: 100% auto;
 }
 
+.navbar{
+  background-color: #b8997a !important;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
